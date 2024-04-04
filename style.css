@@ -1,0 +1,21 @@
+body{
+    background: #dff3e3;
+}
+p{
+    color: #dff3e3;
+    background-color: #493657;
+    height: 50px;
+    text-align: center;
+}
+.todo{
+    border: 2px solid #493657;
+    width: 30%;
+
+}
+.todo .grupo {
+    background-color: #CE7DA5;
+}
+.todo #unico {
+    background-color: #BEE5BF;
+    color: #493657;
+}
