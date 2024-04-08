@@ -4,18 +4,27 @@ body{
 p{
     color: #dff3e3;
     background-color: #493657;
-    height: 50px;
     text-align: center;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px 30px;
+    
+    border: 2px dashed #BEE5BF;
 }
 .todo{
     border: 2px solid #493657;
-    width: 30%;
-
+    width: 50%;
+    background-color: rgb(255, 215, 252);
+    border-radius: 20px 50%;
 }
-.todo .grupo {
+.grupo {
     background-color: #CE7DA5;
+    border: 2px solid #493657
+    
 }
 .todo #unico {
     background-color: #BEE5BF;
     color: #493657;
+    border: 2px dotted #493657;
+    border-radius: 50% 20% / 10% 40%;
 }
